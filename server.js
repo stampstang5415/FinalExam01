@@ -17,7 +17,7 @@ var output = {
 }
 
 app.get('/', function (req, res) {
-    res.send('Express is running');
+    res.send('Express is running HELLO !!');
 });
 
 app.get('/api/json', function (req, res) {
